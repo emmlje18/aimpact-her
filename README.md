@@ -31,7 +31,7 @@ Children's free-text prompts pass through `src/lib/safety.ts` before anything is
 - Tailwind CSS 4 and shadcn/ui (Radix) components
 - Vite, built for Cloudflare via Nitro (through `@lovable.dev/vite-tanstack-config`)
 - Vitest and Testing Library
-- Supabase client (configured, not yet used by the games)
+- Supabase (Postgres) for class play rooms, teams and players; schema and migrations managed with Drizzle in `drizzle/`
 
 ## Getting started
 
@@ -48,7 +48,7 @@ Brand images are served from Lovable's asset host. To see them on localhost, run
 
 ### Environment variables
 
-Create a `.env` file (it is git-ignored):
+Set these in `.env`. The committed `.env` holds only the Supabase project's public (publishable) settings; keep secret keys such as AI keys out of git, for example in `.env.local`.
 
 | Variable | Purpose |
 | --- | --- |
