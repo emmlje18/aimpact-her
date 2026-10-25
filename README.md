@@ -90,4 +90,4 @@ supabase/          Supabase config
 
 ## Credits
 
-Originally built by [aisyahlyana/aiventura](https://github.com/aisyahlyana/aiventura) with [Lovable](https://lovable.dev).
+Co-built by [emmlje18](https://github.com/emmlje18) and [Aisyah](https://github.com/aisyahlyana) with [Lovable](https://lovable.dev). Development started in [aisyahlyana/aiventura](https://github.com/aisyahlyana/aiventura), where both of us committed from that account, so its history is shared work.
